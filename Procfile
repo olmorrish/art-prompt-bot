@@ -1,0 +1,1 @@
+worker: python art_prompt_bot.py
