@@ -9,7 +9,7 @@ client = discord.Client() #register a client
 @client.event 
 async def on_ready(): #called when bot is ready to start
   print('We have logged in as {0.user}'.format(client))
-  game = discord.Game("%help")
+  game = discord.Game("it's tail time")
   await client.change_presence(status=discord.Status.online, activity=game)
 
 @client.event
